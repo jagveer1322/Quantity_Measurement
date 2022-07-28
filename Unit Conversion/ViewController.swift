@@ -26,15 +26,15 @@ class ViewController: UIViewController {
             
         case 0 :
             
-            MainDestinationViewController.FromSegmentIndexOne = "Metre"
+            MainDestinationViewController.FromSegmentIndexOne = "Meter"
             MainDestinationViewController.FromSegmentIndexTwo = "Centimeter"
-            MainDestinationViewController.ToSegmentIndexOne = "Metre"
-            MainDestinationViewController.ToSegmentIndexTwo = "Centimetre"
+            MainDestinationViewController.ToSegmentIndexOne = "Centimeter"
+            MainDestinationViewController.ToSegmentIndexTwo = "Meter"
             
         case 1 :
             MainDestinationViewController.FromSegmentIndexOne = "Kilogram"
-            MainDestinationViewController.FromSegmentIndexTwo = "Grams"
-            MainDestinationViewController.ToSegmentIndexOne = "Grams"
+            MainDestinationViewController.FromSegmentIndexTwo = "Gram"
+            MainDestinationViewController.ToSegmentIndexOne = "Gram"
             MainDestinationViewController.ToSegmentIndexTwo = "Kilogram"
             
             
