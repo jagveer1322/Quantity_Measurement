@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
        
-        let MainDestinationViewController : MainViewController = segue.destination as! MainViewController
+        let MainDestinationViewController : UnitConverterVC = segue.destination as! UnitConverterVC
         
         let segment = TypeSegment.selectedSegmentIndex
         
@@ -26,24 +26,24 @@ class ViewController: UIViewController {
             
         case 0 :
             
-            MainDestinationViewController.FromSegmentIndexOne = "Meter"
-            MainDestinationViewController.FromSegmentIndexTwo = "Centimeter"
-            MainDestinationViewController.ToSegmentIndexOne = "Centimeter"
-            MainDestinationViewController.ToSegmentIndexTwo = "Meter"
+            MainDestinationViewController.fromSegmentIndexOne = "Meter"
+            MainDestinationViewController.fromSegmentIndexTwo = "Centimeter"
+            MainDestinationViewController.toSegmentIndexOne = "Centimeter"
+            MainDestinationViewController.toSegmentIndexTwo = "Meter"
             
         case 1 :
-            MainDestinationViewController.FromSegmentIndexOne = "Kilogram"
-            MainDestinationViewController.FromSegmentIndexTwo = "Gram"
-            MainDestinationViewController.ToSegmentIndexOne = "Gram"
-            MainDestinationViewController.ToSegmentIndexTwo = "Kilogram"
+            MainDestinationViewController.fromSegmentIndexOne = "Kilogram"
+            MainDestinationViewController.fromSegmentIndexTwo = "Gram"
+            MainDestinationViewController.toSegmentIndexOne = "Gram"
+            MainDestinationViewController.toSegmentIndexTwo = "Kilogram"
             
             
         case 2 :
             
-            MainDestinationViewController.FromSegmentIndexOne = "Celsius"
-            MainDestinationViewController.FromSegmentIndexTwo = "Fahrenheit"
-            MainDestinationViewController.ToSegmentIndexOne = "Fahrenheit"
-            MainDestinationViewController.ToSegmentIndexTwo = "Celsius"
+            MainDestinationViewController.fromSegmentIndexOne = "Celsius"
+            MainDestinationViewController.fromSegmentIndexTwo = "Fahrenheit"
+            MainDestinationViewController.toSegmentIndexOne = "Fahrenheit"
+            MainDestinationViewController.toSegmentIndexTwo = "Celsius"
             
         default:
             print ("Error @ preparing segue")

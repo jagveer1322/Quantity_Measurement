@@ -46,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="83.705357142857139"/>
         </scene>
-        <!--Main View Controller-->
+        <!--Unit ConverterVC-->
         <scene sceneID="gtg-OO-oGT">
             <objects>
-                <viewController id="uEd-9O-Vmg" customClass="MainViewController" customModule="Unit_Conversion" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uEd-9O-Vmg" customClass="UnitConverterVC" customModule="Unit_Conversion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ygx-QR-dqD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -78,8 +78,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1Yu-hO-7yu">
-                                <rect key="frame" x="97" y="130" width="329" height="31"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1Yu-hO-7yu">
+                                <rect key="frame" x="97" y="130" width="329" height="32"/>
                                 <segments>
                                     <segment title="First"/>
                                     <segment title="Second"/>
@@ -154,8 +154,8 @@
                     <connections>
                         <outlet property="FromSegment" destination="1Yu-hO-7yu" id="0RL-et-jJd"/>
                         <outlet property="MainLabel" destination="bzS-In-8Kn" id="GGf-ex-pdA"/>
-                        <outlet property="TextField" destination="Px0-QQ-zt2" id="MtI-TG-fnK"/>
                         <outlet property="ToSegment" destination="hk6-L5-e5s" id="08Q-R5-F2X"/>
+                        <outlet property="textField" destination="Px0-QQ-zt2" id="MtI-TG-fnK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e8Y-NA-xS6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
