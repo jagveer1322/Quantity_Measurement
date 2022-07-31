@@ -16,6 +16,7 @@
 		FAB05D512892401C00525D98 /* Quantity_MeasurementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB05D502892401C00525D98 /* Quantity_MeasurementTests.swift */; };
 		FAB05D5B2892401C00525D98 /* Quantity_MeasurementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB05D5A2892401C00525D98 /* Quantity_MeasurementUITests.swift */; };
 		FAB05D5D2892401C00525D98 /* Quantity_MeasurementUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB05D5C2892401C00525D98 /* Quantity_MeasurementUITestsLaunchTests.swift */; };
+		FAD149532895939D0005EEAF /* ViewControllerConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD149522895939D0005EEAF /* ViewControllerConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FAB05D562892401C00525D98 /* Quantity_MeasurementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quantity_MeasurementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB05D5A2892401C00525D98 /* Quantity_MeasurementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantity_MeasurementUITests.swift; sourceTree = "<group>"; };
 		FAB05D5C2892401C00525D98 /* Quantity_MeasurementUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantity_MeasurementUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAD149522895939D0005EEAF /* ViewControllerConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				FAB05D392892401700525D98 /* AppDelegate.swift */,
 				FAB05D3B2892401700525D98 /* SceneDelegate.swift */,
+				FAD149522895939D0005EEAF /* ViewControllerConverter.swift */,
 				FAB05D3D2892401700525D98 /* ViewController.swift */,
 				FAB05D3F2892401700525D98 /* Main.storyboard */,
 				FAB05D422892401C00525D98 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 				FAB05D3E2892401700525D98 /* ViewController.swift in Sources */,
 				FAB05D3A2892401700525D98 /* AppDelegate.swift in Sources */,
 				FAB05D3C2892401700525D98 /* SceneDelegate.swift in Sources */,
+				FAD149532895939D0005EEAF /* ViewControllerConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
